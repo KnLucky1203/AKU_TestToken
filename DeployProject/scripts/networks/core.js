@@ -12,17 +12,17 @@ const deployWETH = require("../deployWETH.js");
 const deployXMR = require("../deployXMR.js");
 
 const deploy_core = async () => {
-    await deployARB();
-    await deployAVAX();
-    await deployDAI();
-    await deployLTC();
-    await deployMATIC();
-    await deploySOL();
-    await deployTRX();
-    await deployUSDT();
-    await deployWBNB();
-    await deployWBTC();
-    await deployWETH();
+    // await deployARB();
+    // await deployAVAX();
+    // await deployDAI();
+    // await deployLTC();
+    // await deployMATIC();
+    // await deploySOL();
+    // await deployTRX();
+    // await deployUSDT();
+    // await deployWBNB();
+    // await deployWBTC();
+    // await deployWETH();
     await deployXMR();
 }
 

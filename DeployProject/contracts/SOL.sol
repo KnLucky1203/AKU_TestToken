@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
-contract SOLANA is ERC20, ERC20Burnable {
+contract SOL is ERC20, ERC20Burnable {
     constructor() ERC20("SOLANA", "SOL") {
         _mint(msg.sender, 1_000_000_000_000 * 10 ** 18 );
     }
