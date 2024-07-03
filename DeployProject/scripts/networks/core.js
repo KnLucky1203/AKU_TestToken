@@ -6,9 +6,9 @@ const deployMATIC = require("../deployMATIC.js");
 const deploySOL = require("../deploySOL.js");
 const deployTRX = require("../deployTRX.js");
 const deployUSDT = require("../deployUSDT.js");
-const deployWBNB = require("../deployWBNB.js");
-const deployWBTC = require("../deployWBTC.js");
-const deployWETH = require("../deployWETH.js");
+const deployBNB = require("../deployBNB.js");
+const deployBTC = require("../deployBTC.js");
+const deployETH = require("../deployETH.js");
 const deployXMR = require("../deployXMR.js");
 
 const deploy_core = async () => {
@@ -20,10 +20,10 @@ const deploy_core = async () => {
     // await deploySOL();
     // await deployTRX();
     // await deployUSDT();
-    // await deployWBNB();
-    // await deployWBTC();
-    // await deployWETH();
-    await deployXMR();
+    // await deployBNB();
+    // await deployBTC();
+    await deployETH();
+    // await deployXMR();
 }
 
 module.exports = { deploy_core };
